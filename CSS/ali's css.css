@@ -1,0 +1,497 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+html{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252A;
+  }
+p{
+  line-height: 1.6;
+}
+/* style the Header*/
+.Header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+.nav_bar li{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #edf0f1;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  letter-spacing: 2px;
+}
+.nav_bar a{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #edf0f1;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  letter-spacing: 2px;
+}
+.act{
+  background-color: #ff7dff;
+  border: none;
+  border-radius: 10px;
+}
+/*add hover effect*/
+.nav_bar li a:hover {
+  color: #fdbbff;
+}
+.act:hover{
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+}
+.nav_bar{
+  list-style: none;
+}
+
+.nav_bar li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+#logo{
+  cursor: pointer;
+  width: 150px;
+  height: 130px;
+  margin: 0 auto;
+}
+#logo:hover{
+  transform: scale(1.2);
+  transition: all 0.3s ease 0s;
+}
+/* style the Footer*/
+#Footer{
+  background-color: #24252A;
+  padding: 70px 30px 20px;
+}
+.social-media{
+  display: flex;
+  justify-content: center;
+}
+
+.social-media a{
+ text-decoration: none;
+padding: 10px;
+background-color: white;
+margin: 10px;
+border-radius: 50%;
+}
+
+.social-media a i{
+ font-size: 30px;
+ color: black;
+ opacity: 0.9;
+ }
+ .foot-nav{
+  margin: 30px 0;
+ }
+ .foot-nav ul{
+  display: flex;
+  justify-content: center;
+ }
+ .foot-nav ul li a{
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 22px;
+  opacity: 0.7;
+  transition: 0.5;
+  letter-spacing: 1px;
+ }
+ .footer_nav_bar{
+  list-style: none;
+ }
+ #lnk{
+  color: white;
+  text-align: center;
+  font-size: 16px;
+ }
+ #copyright{
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+ }
+ #copyright p{
+  color: white;
+ }
+ .designer{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+
+ }
+ /*add hover effect*/
+ .social-media a:hover{
+background-color: #fdbbff;
+transition: 0.5s;
+ }
+ .foot-nav ul li a:hover{
+opacity: 1;
+color: #fdbbff;
+ }
+ /*Home page style*/
+/* style the main section for home page */
+#Home-body{
+  display: flex;
+  background-color: #24252A;
+  padding: 70px 30px 20px;
+}
+.box-about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.box-about h2{
+  order: 1;
+  color: white;
+  margin: auto;
+  text-decoration: none;
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+.box-about p{
+  order: 2;
+  width: 95%;
+  color: white;
+  margin: auto;
+  text-decoration: none;
+  font-size: 18px;
+  padding-bottom: 20px;
+  text-align: justify;
+}
+#mainbar{
+  display: flex;
+}
+.box-home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.box-home h2{
+padding: 10px 0px;
+color: white;
+}
+.box-home p{
+  padding: 15px 0px;
+  margin: 0px 40px;
+  color: white;
+
+}
+#products-preview{
+  padding-top: 40px;
+}
+#products-preview h2{
+  padding-top: 20px;
+}
+#products-preview p{
+  padding-bottom: 30px 0px;
+}
+#services-preview img{
+  padding-top: 15px;
+  width: 600px;
+  height: 350px;
+}
+#products-preview img{
+  padding-top: 15px;
+  width: 300px;
+  height: 400px;
+}
+/*products page style*/
+#content{
+  display: flex;
+  background-color: #24252A;
+  padding: 70px 30px 20px;
+}
+#sculptures{
+  padding-top: 30px;
+}
+.box-product{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+.box-product img{
+ margin: 0;
+  width: 236px;
+  height: 324px;
+}
+.box-product h2{
+  margin: 0;
+  padding: 15px 0px;
+  color: white;
+}
+.box-product p{
+  margin: 0;
+  padding: 15px 0px;
+  color: white;
+  width: 500px;
+}
+/*services page style*/
+#service-body{
+  display: flex;
+  background-color: #24252A;
+
+  padding: 70px 30px 20px;
+}
+.box-service{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+ #Commissions img{
+  padding-top: 15px;
+  width: 600px;
+  height: 350px;
+ }
+ #Photoedit img{
+  padding-top: 55px;
+  width: 600px;
+  height: 350px;
+ }
+ .box-service h2{
+  padding: 15px 0px;
+  color: white;
+}
+.box-service p{
+  text-align: center;
+  padding: 15px 10px;
+  color: white;
+  width: 95%;
+}
+#Commissions{
+  padding-top: 40px;
+}
+/*sign up page style*/
+.box-sign-up{
+  margin: 0;
+  background-color:#24252A;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  height: 600px;
+  border-radius: 0px;
+  
+  transition: 0.5s;
+word-spacing: 2px;
+padding-top: 10px
+}
+#sign-up-form {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  justify-items: center;
+}
+#sign-up-form h1 {
+  color: white;
+  text-align: center;
+}
+#sign-up-form p{
+  color: white;
+  text-align: center;
+}
+label {
+  letter-spacing: 1px !important;
+  color: white;
+}
+legend{
+  letter-spacing: 1px !important;
+  font-size: 20px!important;
+  font-weight: bold!important;
+  text-align: center ;
+  color: white;
+}
+/*contact us page style*/
+#contact-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #24252A;
+  min-height: 560px;
+}
+#form{
+  width: 420px;
+  background: transparent;
+  border: 2px solid  rgba(225, 225, 225, 0.2);
+  color: white;
+  border-radius: 10px;
+  padding: 30px 40px;
+ backdrop-filter: blur(20px);
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.box-contact{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+.box-contact input{
+  width: 98%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255,255, 255, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: white;
+}
+.box-contact input::placeholder{
+color: white;
+padding-left: 10px;
+}
+.box-contact i{
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+#form button{
+  width: 100%;
+  height: 45px;
+  background: white;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255,255, 255, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  cursor: pointer;
+  color: #24252A;
+  font-weight: 600;
+}
+#form button:hover{
+  background: #24252A;
+  color: white;
+}
+.terms{
+  font-size: 15px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+.terms p{
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+.terms a{
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+.terms a:hover{
+  text-decoration: underline;
+  color: #fdbbff;
+}
+/*sub-pages style*/
+#content-sub{
+  display: flex;
+  flex-direction: column;
+  background-color: #24252A;
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+#photo-head{
+  display: flex;
+  flex-direction: column;
+  background-color: #24252A;
+  width: 100%;
+  padding: 50px 0px ;
+}
+#photo-head h1{
+  color: white;
+  text-align: center;
+}
+#paint-head{
+  display: flex;
+  flex-direction: column;
+  background-color: #24252A;
+  width: 100%;
+  padding: 50px 0px ;
+}
+#paint-head h1{
+  color: white;
+  text-align: center;
+}
+#sculp-head{
+  display: flex;
+  flex-direction: column;
+  background-color: #24252A;
+  width: 100%;
+  padding: 50px 0px ;
+}
+#sculp-head h1{
+  color: white;
+  text-align: center;
+}
+.sell-cont{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+.sell-cont img:hover{
+  transform: scale(1);
+  transition: 0.5s ease-in-out;
+
+}
+.sell-cont img:hover{
+  transform: scale(1.5);
+
+}
+.sell-cont h2{
+  margin: 0;
+   padding: 15px 0px;
+   color: white;
+}
+.sell-cont p{
+  margin: 0;
+  padding: 15px 0px;
+  color: white;
+  width: 500px;
+}
+.sell-cont h3{
+  margin: 0;
+   padding: 15px 0px;
+   color: white;
+}
+.sell-cont button{
+  background-color: #24252A;
+  color: white;
+  padding: 8px 14px;
+  cursor: pointer;
+  border: 2px solid white;
+  box-shadow: 2px 2px 0 0 #24252A,4px 4px 0 0 white;
+}
+.sell-cont button:hover{
+  box-shadow: 3px 3px 0 0 #24252A,6px 6px 0 0 white;
+  transform: translate(-2px,-2px);
+}
